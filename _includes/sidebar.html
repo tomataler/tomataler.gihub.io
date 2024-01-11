@@ -10,7 +10,15 @@
 			</svg></a></li>
 	{%- endif -%}
 </div>
+<div class="sidebar-box">
+	{% if author %}
+		<!-- <img src={{author.avator}} alt={{author.name}} /> -->
 
+		{% include srcset-img.html class="avator" img=author.avator alt=author.name %}
+	<!-- {% else %}
+		<img src="assets\profiles\tomataler-profile.jpg" alt="tomataler image" /> -->
+	{% endif %}
+</div>
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
       <li class="nav-title">Pages</li>

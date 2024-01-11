@@ -1,0 +1,14 @@
+tomataler:
+  name: 김 도형
+  email: tomataler@naver.com
+  about: "I am programmer."
+  bio: "Hello"
+  picture: /assets/profiles/tomataler-profile.jpg
+  avator: /assets/profiles/tomataler-profile.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "tomataler@naver.com"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tomataler"
