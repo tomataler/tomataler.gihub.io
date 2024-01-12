@@ -10,3 +10,16 @@ getting-started:
   name: getting-started
   description: false
   conver: false
+jekyll:
+  name: jekyll
+  description: false
+  conver: false
+python:
+  name: python
+  description: false
+  conver: false
+economy:
+  name: economy
+  description: false
+  conver: false
+  
