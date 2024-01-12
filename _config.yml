@@ -23,13 +23,12 @@
 
 title: Tomataler's Blog
 tagline: Tomataler's Github Blog
-author:
-  type: person
+owner:
   name: tomataler
+  avator: /assets/profiles/tomataler-profile.jpg
+  bio: programmer
   email: tomataler@naver.com
   about: I am programmer.
-  bio: Hello
-  avator: /assets/profiles/tomataler-profile.jpg
   location: "South Korea"
   links:
     - label: "Email"
@@ -45,7 +44,7 @@ author:
   telegram:
   zhihu:
   douban:
-  github:
+  github: tomataler
   stackexchange:
   linkedin:
   instagram:
@@ -61,8 +60,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: tomataler
-social_name: Tomataler
-social_email: tomataler@naver.com
+
 highlighter: rouge
 svg:
   optimize: true
@@ -72,6 +70,8 @@ highlighter-theme: monokai
 date_format: "%Y-%M-%D"
 plugins:
   - jekyll-feed
+#  - jekyll-paginate
+#  - jekyll-gist
 category_dir: category/
 tag_dir: tag/
 menu:
@@ -84,13 +84,74 @@ menu:
   - title: Etc
     url: /etc/
 
+social_name: Tomataler
+social_email: tomataler@naver.com
+social_github: tomataler
+github:
+  - name: tomataler
+
+language: 'ko-kr'
+pageinate: 20
+
+logo:
+logo_dark:
+
+# 배경이미지 assets 폴더아래의 이미지 매핑
+cover: 
+
+# 브라우저의 타이틀옆 아이콘 (favorite icon의 약자)
+favicon:
+
+production_url: https://tomataler.github.io/
+source_url: https://github.com/tomataler/GitHubPageMaker
+
+twitter:
+facebook:
+
+#온라인 댓글 시스템
+disqus: true
+disqus_shorname: xxxx
+
+# Google Analytics
+google_analytics: UA-xxxx
+
+#permalinks /author/:author
+#permalinks: /tag/:title
+permalink: /:title
+
+navigation: true
+#검색기능을 사용하기 위해 사용하는 기능
+#`_includes/subscribe-form.html` 파일의 수정 필요
+subscribers: true
+
+feed:
+  path: feed.xml
+
+safe: false
+lsi: false
+
+# travis-ci와 연동되는 github username
+#username: tomataler
+# travis-ci와 연동되는 github repository이름
+#repo: GitHubPageMaker
+
+#branch: main
+#relative_source:
+#destination: ./output/
+
+collections:
+  authors:
+    title: Authors
+    output: true    
+
 # defaults:
 #   # _posts
 #   - scope:
-#     path: ""
+#     path: ''
 #     type: posts
 #     values:
-#       layout: single
+#       layout: post
+#       author:
 #       author_profile: true
 #       read_time: true
 #       comments: # 블로그 댓글 기능 true
@@ -98,11 +159,13 @@ menu:
 #       related: true   
 #   # _pages
 #   - scope:
-#     path: ""
-#     type: pages
+#     path: ''
+#     type: authors
 #     values:
-#       layout: single
+#       layout: author
 #       author_profile: true
+#       subtitle: ~담당하고 있습니다.
+#       author: tomataler
 #       read_time: false
 #       comments: false
 #       share: true

@@ -1,0 +1,12 @@
+speeches:
+  name: speeches
+  description: Some of the greatest words ever spoken
+  cover: false
+fiction:
+  name: fiction
+  description: false
+  cover: false
+getting-started:
+  name: getting-started
+  description: false
+  conver: false

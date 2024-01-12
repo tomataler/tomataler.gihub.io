@@ -1,14 +1,11 @@
-tomataler:
-  name: 김 도형
-  email: tomataler@naver.com
-  about: "I am programmer."
-  bio: "Hello"
-  picture: /assets/profiles/tomataler-profile.jpg
-  avator: /assets/profiles/tomataler-profile.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "tomataler@naver.com"
-    - label: "Github"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/tomataler"
+tomataler:  
+  username: totmataler
+  name: kim do hyoung
+  location: South Korea, Daegu
+  url_full:
+  url:
+  bio:
+  picture: assets/profile/tomataler_profile.jpg  # author image icon 
+  facebook:
+  twitter:
+  cover:

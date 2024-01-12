@@ -1,14 +1,16 @@
 ---
-type: posts
 layout: post
-title: "첫 포스트"
-categories:
-    - Blog
+current: post
+cover: false
+navigation: true
+title: "Python 관련 포스트"
 tags: 
-    - Blog
+class: post-template
+subclass: 'post'
+author: tomataler
 date: "2024-01-09 00:00:00 +0900"
 last_modified_at: "2024-01-19 00:00:00 +0900"
-author: tomataler
+
 ---
 
 첫번재 포스트입니다.

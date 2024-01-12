@@ -1,4 +1,5 @@
 ---
+type: posts
 layout: post
 title: "두번재 포스트"
 categories:
