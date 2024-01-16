@@ -2,5 +2,5 @@
 layout: category
 title: "Category Blog"
 category: blog
-permalink: '/category/blog'
+permalink: 'others/category/blog'
 ---

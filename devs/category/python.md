@@ -2,5 +2,5 @@
 layout: category
 title: "Category Python"
 category: python
-permalink: '/category/python'
+permalink: 'devs/category/python'
 ---

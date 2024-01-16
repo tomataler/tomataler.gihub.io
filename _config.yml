@@ -102,6 +102,11 @@ pageinate: 20
 logo:
 logo_dark:
 
+include:
+  - blogs/
+  - devs/
+  - medinfos/
+  - others/
 # 배경이미지 assets 폴더아래의 이미지 매핑
 cover: 
 
@@ -151,15 +156,15 @@ lsi: false
 #     title: Authors
 #     output: true   
 
-# collections:
-#   blogs:
-#     output: true
-#   devs:
-#     output: true
-#   medinfos:
-#     output: true
-#   others:
-#     output: true
+collections:
+  blogs:
+    output: true
+  devs:
+    output: true
+  medinfos:
+    output: true
+  others:
+    output: true
 
 
 # defaults:

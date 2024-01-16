@@ -2,5 +2,5 @@
 layout: category
 title: "Category Update"
 category: update
-permalink: '/category/update'
+permalink: 'others/category/update'
 ---
