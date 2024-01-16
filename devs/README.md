@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: devs/readme/
+permalink: /devs/readme/
 ---
 
 ## Theme Monos

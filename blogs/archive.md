@@ -2,7 +2,7 @@
 layout: default
 current: archive
 title: "Archive"
-permalink: blogs/archive/
+permalink: /blogs/archive/
 navigation: true
 logo: 
 class: page-template

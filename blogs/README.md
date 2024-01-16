@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: blogs/readme/
+permalink: /blogs/readme/
 ---
 
 ## Theme Monos

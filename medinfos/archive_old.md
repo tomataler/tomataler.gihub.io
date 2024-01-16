@@ -2,7 +2,7 @@
 layout: default
 current: archive
 title: "Archive"
-permalink: medinfos/archive-old/
+permalink: /medinfos/archive-old/
 navigation: true
 logo: 
 class: page-template

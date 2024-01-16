@@ -1,5 +1,5 @@
 ---
 layout: category
 title: Category
-permalink: medinfos/category/
+permalink: /medinfos/category/
 ---

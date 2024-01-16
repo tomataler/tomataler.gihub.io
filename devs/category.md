@@ -1,5 +1,5 @@
 ---
 layout: category
 title: Category
-permalink: devs/category/
+permalink: /devs/category/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ReadMe
-permalink: medinfos/readme/
+permalink: /medinfos/readme/
 ---
 
 ## Theme Monos

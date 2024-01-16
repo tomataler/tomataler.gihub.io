@@ -2,7 +2,7 @@
 layout: default
 current: author_archive
 title: "Author Archive"
-permalink: others/author-archive/
+permalink: /others/author-archive/
 navigation: true
 logo: 
 class: page-template
