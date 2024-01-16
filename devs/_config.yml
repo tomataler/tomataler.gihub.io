@@ -60,7 +60,7 @@ authors:
   nasamoryu:
     name: "MeYoong Ryu"
 email: kimdo3@gmail.com
-url: https://tomataler.github.io/devs
+url: https://tomataler.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Themed by ejjoo
 baseurl: "/devs" # the subpath of your site, e.g. /blog
