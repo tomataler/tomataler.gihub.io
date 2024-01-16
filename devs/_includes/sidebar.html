@@ -1,0 +1,102 @@
+<div class="sidebar-item sidebar-header">
+	<div class='sidebar-brand'>
+		<a href="{{site.baseurl}}/about/">{{ site.title }}</a>
+	</div>
+	<p class="lead">{{ site.description }}</p>
+	{%- if social.github -%}
+		<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}">
+			<svg class="svg-icon grey">
+				<use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}" />
+			</svg>
+		</a>
+	</li>
+	{%- endif -%}
+</div>
+
+<div class="author-info">
+	{% if site.author.avator %}
+		<img src="{{site.baseurl}}/{{ site.author.avator }}" alt="{{ site.author.name }}" class="author-avator" />
+	{% endif %}
+	<h2>{{ site.author.name }}</h2>
+	<p>{{ site.author.bio }}</p>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">Pages</li>
+	  <li>
+	  	<a class="nav-item" href="{{site.baseurl}}/">Articles</a>
+	  </li>
+	  {% assign pages_list = site.pages %}
+	  {% for node in pages_list %}
+	    {% if node.title != null %}
+	      {% if node.layout == "page" %}
+	        <li>
+	        	<a class="nav-item" href="{{site.baseurl}}/{{ node.url }}">
+	            	{{ node.title }}
+	            </a>
+	        </li>
+	      {% endif %}
+	    {% endif %}
+	  {% endfor %}
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+  	<ul class="nav">
+		<li class="nav-title">Categories</li>
+	    {% for category in site.categories %}
+	    <li>
+	    	<!-- <a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}/{{append: category | first }}">
+				<span class="name">{{ category | first }}</span>
+				<span class="badge">{{ category | last | size }}</span>
+	    	</a> -->
+			<!-- <a class="nav-item"  href="{{ root_url }}/{{ site.category_dir }}/{{ category | first }}">
+				{{ category | first }} ({{ category | last | size }})
+			</a> -->
+			<a class="nav-item"  href="{{ site.baseurl }}/{{ site.category_dir }}/{{ category | first }}">
+				{{ category | first }} ({{ category | last | size }})
+			</a>
+			<!-- <a href="./category/{{ category | first }}">
+				{{ category | first }} ({{ category | last | size }})
+			</a> -->
+			<!-- <a href="{{ site.baseurl }}/categories/{{ category | first }}">
+				{{ category | first }} ({{ category | last | size }})
+			</a> -->
+
+ 		</li>
+	    {% endfor %}
+	  </nav>
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+	  <li class="nav-title">Tags</li>
+	  {% for tag in site.tags %}
+	  <li>
+		<!-- <a class="nav-item"  href="{{ root_url }}/{{ site.tag_dir }}/{{ tag | first }}">
+			{{ tag | first }} ({{ tag | last | size }})
+		</a> -->
+		<a class="nav-item"  href="{{ site.baseurl }}/{{ site.tag_dir }}/{{ tag | first }}">
+			{{ tag | first }} ({{ tag | last | size }})
+		</a>
+      </li>
+	  {% endfor %}
+	</nav>
+  </ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+	  <li class="nav-title">Archives</li>
+	  <!-- <li><a class="nav-item" href="{{ root_url }}/archive/">Archive</a></li>
+	  <li><a class="nav-item" href="{{ root_url }}/author-archive/">Author Archive</a></li> -->
+	  <li><a class="nav-item" href="{{ site.baseurl }}/archive/">Archive</a></li>
+	  <li><a class="nav-item" href="{{ site.baseurl }}/author-archive/">Author Archive</a></li>
+	</ul>
+</div>
+
+<div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div>

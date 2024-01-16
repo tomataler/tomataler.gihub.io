@@ -1,0 +1,25 @@
+tomataler:
+  name: 김 도형
+  email: tomataler@naver.com
+  about: "I am programmer."
+  bio: "Hello"
+  picture: /assets/profiles/tomataler-profile.jpg
+  avator: /assets/profiles/tomataler-profile.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "tomataler@naver.com"
+    - label: "Github"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/tomataler"
+Authors:
+  - name: chunbs
+    koname: 천보성 팀장
+    email: chunbs@brandi.co.kr
+    position: R&D 개발2팀
+    img: /assets/profile/chunbs.jpg
+  - name: kangww
+    koname: 강원우 과장
+    email: kangww@brandi.co.kr
+    position: R&D 개발2팀
+    img: /assets/profile/kangww.jpg

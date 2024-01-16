@@ -23,7 +23,7 @@
 
 title: Tomataler's Blog
 tagline: Tomataler's Github Blog
-owner:
+author:
   name: tomataler
   avator: /assets/profiles/tomataler-profile.jpg
   bio: programmer
@@ -53,11 +53,17 @@ owner:
   npm:
   # google plus id, include the '+', eg +mmistakes
   google_plus:
+
+authors:
+  tomataler:
+    name: "DoHyoung Kim"  
+  nasamoryu:
+    name: "MeYoong Ryu"
 email: kimdo3@gmail.com
 url: https://tomataler.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Themed by ejjoo
-# baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: tomataler
 
@@ -72,8 +78,8 @@ plugins:
   - jekyll-feed
 #  - jekyll-paginate
 #  - jekyll-gist
-category_dir: category/
-tag_dir: tag/
+category_dir: category
+tag_dir: tag
 menu:
   - title: Toma's Github Blog
     url: /blog/
@@ -130,6 +136,7 @@ feed:
 safe: false
 lsi: false
 
+
 # travis-ci와 연동되는 github username
 #username: tomataler
 # travis-ci와 연동되는 github repository이름
@@ -139,10 +146,21 @@ lsi: false
 #relative_source:
 #destination: ./output/
 
-collections:
-  authors:
-    title: Authors
-    output: true    
+# collections:
+#   authors:
+#     title: Authors
+#     output: true   
+
+# collections:
+#   blogs:
+#     output: true
+#   devs:
+#     output: true
+#   medinfos:
+#     output: true
+#   others:
+#     output: true
+
 
 # defaults:
 #   # _posts
@@ -157,19 +175,19 @@ collections:
 #       comments: # 블로그 댓글 기능 true
 #       share: true
 #       related: true   
-#   # _pages
-#   - scope:
-#     path: ''
-#     type: authors
-#     values:
-#       layout: author
-#       author_profile: true
-#       subtitle: ~담당하고 있습니다.
-#       author: tomataler
-#       read_time: false
-#       comments: false
-#       share: true
-#       related: false
+  ## _pages
+  # - scope:
+  #   path: ''
+  #   type: authors
+  #   values:
+  #     layout: author
+  #     author_profile: true
+  #     subtitle: ~담당하고 있습니다.
+  #     author: tomataler
+  #     read_time: false
+  #     comments: false
+  #     share: true
+  #     related: false
 
 
 
