@@ -32,4 +32,4 @@ date_format: "%Y-%M-%D" //and date format.
 <a href= "{{site.url}}{{root_url}}/{{ 'medinfos/index.html' }}">[Medinfos] : Medinfos들의 모음</a>
 
 #### Others
-<a href= "{{site.url}}{{root_url}}/{{ 'Others/index.html' }}">[Others] : Others들의 모음</a>
+<a href= "{{site.url}}{{root_url}}/{{ 'others/index.html' }}">[Others] : Others들의 모음</a>
