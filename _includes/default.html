@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {%- include head.html -%}
-  <!-- {% include header.html %} -->
   <style>@import url(/public/css/syntax/{{ site.highlighter-theme }}.css);</style>
   <title>{{ site.title }}</title>
   <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
@@ -10,20 +9,20 @@
   <body>
   	<div class="container"> 
 		
-		<!-- <div class="sidebar">
+		<div class="sidebar">
 			{% include sidebar.html %}
-		</div> -->
-		<nav>
+		</div>
+		<div class="content">
+			{{ content }}
+		</div>
+		<!-- <nav>
 			<ul>
 				<li><a href="{{root_url}}/{{ 'blogs/index.html' }}">블로그들</a></li>
 				<li><a href="{{root_url}}/{{ 'devs/index.html'  }}">개발들</a></li>
 				<li><a href="{{root_url}}/{{ 'medinfos/index.html'  }}">의료정보들</a></li>
 				<li><a href="{{root_url}}/{{ 'others/index.html'  }}">기타들</a></li>
-
-
 			</ul>
-		</nav>
-		
+		</nav> -->
 	</div>
   </body>
 </html>
